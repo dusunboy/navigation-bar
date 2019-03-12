@@ -6,10 +6,10 @@ Page({
     titleStyle: '',
     bgStyle: 'position: fixed',
     delta: 2,
-    textStyle: 'white'
+    textStyle: 'white',
+    showBack: true
   },
-  onLoad() {
-  },
+  onLoad() {},
   onnavback(e) {
     console.log('navback', e)
   },
@@ -67,5 +67,10 @@ Page({
         bgStyle: 'background-color: #000;'
       })
     }
+  },
+  setshowBack() {
+    this.setData({
+      showBack: !this.data.showBack
+    })
   }
 })

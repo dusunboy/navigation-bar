@@ -48,6 +48,7 @@ npm install --save miniprogram-navigation-bar
 | bg-style               | String      |            | 否             | 可设定导航栏样式，如'background-color: green'       |
 | title-style            | String      |            | 否             | 可设定导航栏标题样式，如'color: black'               |
 | text-style            | String      |white            | 否             |设置返回按钮颜色， 仅支持 white 和 black               |
+| show-back            | Boolean      |true            | 否             |设置是否展示返回按钮            |
 
 
 **Tip:** navigation-bar 中包含 slot 节点，位置固定于 navigation-bar 的最右侧，用于承载使用者提供的 wxml 结构

@@ -39,7 +39,12 @@ Component({
       type: String,
       value: 'white',
       observer: '_changeTextStyle'
-    }
+    },
+    //  决定是否显示左侧按钮
+    showBack: {
+      type: Boolean,
+      value: true
+    },
   },
 
   /**

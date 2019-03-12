@@ -1,6 +1,6 @@
 <!--pages/navigation-bar/navigation-bar.wxml-->
 <view class="{{bgClass}} _nav" style='padding-top:{{barHeight}}px; {{navBgStyle}} {{bgStyle}}'>
-  <view class="nav-back" bindtap="_onTap">
+  <view class="nav-back" bindtap="_onTap" wx:if="{{showBack}}">
     <image class="nav-icon" src="{{navIconUrl}}"></image>
   </view>
   <view class='loading'>
