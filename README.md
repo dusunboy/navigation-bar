@@ -35,7 +35,7 @@ npm install --save miniprogram-navigation-bar
 4. WXML 文件中引用 navigation-bar
 
 ``` xml
-<navigation-bar bindnavback="onnavback" enable="{{enable}}" show-loading="{{loading}}" title="{{title}}" ></navigation-bar> 
+<navigation-bar  show-back="{{showBack}}" bindnavback="onnavback" enable="{{enable}}" show-loading="{{loading}}" title="{{title}}" ></navigation-bar> 
 ```
 **navigation-bar的属性介绍如下：**
 
